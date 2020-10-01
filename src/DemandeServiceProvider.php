@@ -1,6 +1,6 @@
 <?php
 
-namespace Abe\Demande;
+namespace AbeGning\Demande;
 
 use Illuminate\Support\ServiceProvider;
 

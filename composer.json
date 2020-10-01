@@ -1,5 +1,5 @@
 {
-    "name": "abe/demande",
+    "name": "abegning/demande",
     "description": "Package pour la gestion de demandes des usagers",
     "type": "library",
     "license": "MIT",
@@ -13,7 +13,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Abe\\Demande\\": "src/"
+            "AbeGning\\Demande\\": "src/"
         }
     }
 }

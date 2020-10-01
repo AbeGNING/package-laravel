@@ -1,15 +1,15 @@
 <?php
 
-namespace Abe\Demande\Http\Controllers;
+namespace AbeGning\Demande\Http\Controllers;
 
 use Illuminate\Support\Str;
 use Illuminate\Http\Request;
 
-use Abe\Demande\Models\Document;
+use AbeGning\Demande\Models\Document;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Mail;
-use Abe\Demande\Mail\DemandeEnvoyeeMail;
+use AbeGning\Demande\Mail\DemandeEnvoyeeMail;
 
 class DemandeController extends Controller
 {

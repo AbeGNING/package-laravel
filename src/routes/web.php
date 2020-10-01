@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::group(['namespace' => 'Abe\Demande\Http\Controllers'], function () {
+Route::group(['namespace' => 'AbeGning\Demande\Http\Controllers'], function () {
 
     Route::get('demandes',                  'DemandeController@index')->name('demandes.index');
     Route::get('nouvelle-demande',          'DemandeController@create')->name('demandes.create');
