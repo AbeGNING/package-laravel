@@ -1,0 +1,19 @@
+{
+    "name": "abe/demande",
+    "description": "Package pour la gestion de demandes des usagers",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AbeGNING",
+            "email": "abrahamgning@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Abe\\Demande\\": "src/"
+        }
+    }
+}
