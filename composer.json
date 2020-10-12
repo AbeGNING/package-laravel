@@ -11,9 +11,7 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {
-        "php": ">=7.4.*"
-    },
+    "require": {},
     "autoload": {
         "psr-4": {
             "AbeGning\\Demande\\": "src/"
