@@ -3,6 +3,7 @@
     "description": "Package pour la gestion de demandes des usagers",
     "type": "library",
     "license": "MIT",
+    "version": "0.1.1",
     "authors": [
         {
             "name": "AbeGNING",
@@ -10,7 +11,9 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "php": ">=7.4.*"
+    },
     "autoload": {
         "psr-4": {
             "AbeGning\\Demande\\": "src/"
